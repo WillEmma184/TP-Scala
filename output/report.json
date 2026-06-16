@@ -1,0 +1,102 @@
+{
+  "totalRecords" : 20,
+  "validRecords" : 15,
+  "invalidRecords" : 5,
+  "totalRevenue" : 5680.649999999999,
+  "byCategory" : [
+    {
+      "category" : "Electronics",
+      "totalSales" : 4,
+      "totalRevenue" : 4049.92,
+      "averagePrice" : 612.49,
+      "averageQuantity" : 2.0
+    },
+    {
+      "category" : "Clothing",
+      "totalSales" : 3,
+      "totalRevenue" : 539.92,
+      "averagePrice" : 99.99000000000001,
+      "averageQuantity" : 2.6666666666666665
+    },
+    {
+      "category" : "Books",
+      "totalSales" : 2,
+      "totalRevenue" : 210.0,
+      "averagePrice" : 50.0,
+      "averageQuantity" : 2.0
+    },
+    {
+      "category" : "Home",
+      "totalSales" : 3,
+      "totalRevenue" : 529.91,
+      "averagePrice" : 61.656666666666666,
+      "averageQuantity" : 3.0
+    },
+    {
+      "category" : "Food",
+      "totalSales" : 3,
+      "totalRevenue" : 350.9,
+      "averagePrice" : 18.826666666666664,
+      "averageQuantity" : 6.666666666666667
+    }
+  ],
+  "byRegion" : [
+    {
+      "region" : "South",
+      "totalSales" : 3,
+      "totalRevenue" : 449.88,
+      "topCategory" : "Clothing"
+    },
+    {
+      "region" : "East",
+      "totalSales" : 3,
+      "totalRevenue" : 414.93000000000006,
+      "topCategory" : "Electronics"
+    },
+    {
+      "region" : "Central",
+      "totalSales" : 2,
+      "totalRevenue" : 639.96,
+      "topCategory" : "Electronics"
+    },
+    {
+      "region" : "West",
+      "totalSales" : 3,
+      "totalRevenue" : 554.95,
+      "topCategory" : "Home"
+    },
+    {
+      "region" : "North",
+      "totalSales" : 4,
+      "totalRevenue" : 3620.9300000000003,
+      "topCategory" : "Electronics"
+    }
+  ],
+  "byMonth" : [
+    {
+      "year" : 2024,
+      "month" : 3,
+      "totalSales" : 5,
+      "totalRevenue" : 1594.8700000000001
+    },
+    {
+      "year" : 2024,
+      "month" : 2,
+      "totalSales" : 3,
+      "totalRevenue" : 345.91
+    },
+    {
+      "year" : 2024,
+      "month" : 1,
+      "totalSales" : 7,
+      "totalRevenue" : 3739.87
+    }
+  ],
+  "errors" : [
+    "[S011] price: Le prix doit être un nombre positif (reçu: not_a_number)",
+    "[S012] quantity: La quantité doit être un entier positif (reçu: -5)",
+    "[S013] category: Catégorie inconnue: InvalidCategory",
+    "[S014] region: Région inconnue: Mars",
+    "[S015] date: Format de date invalide YYYY-MM-DD (reçu: not-a-date)"
+  ]
+}
